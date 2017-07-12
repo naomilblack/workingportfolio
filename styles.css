@@ -73,9 +73,29 @@ padding: 20px 0 20px 0;}
   text-align:center;}
 
   /*Portfolio*/
+.wrapper{ margin: 1em 5% 1em;
+}
 
-div.tiles{display:inline-block;
-width:30%;}
-  .tile img{
-  width:30%;
-margin:auto;}
+div.tiles
+{display:inline-block;
+  margin: 0 0 2% 2%;
+  width:27.3%;
+  padding:2%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+border: 1px;
+background-color: white;
+box-sizing: border-box;
+}
+
+  .tiles img{
+  max-width:100%;
+margin:3%;
+padding:auto;
+}
+
+a.tiles{text-decoration:none;
+color:grey;
+
+}
+
+a.hover{color:deeppink;}
